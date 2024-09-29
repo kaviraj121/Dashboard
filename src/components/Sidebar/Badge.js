@@ -1,31 +1,34 @@
 import React from 'react';
-import { Box } from '@mui/material';
+import { Box, useTheme } from '@mui/material';
 
 const Badge = () => {
+  const theme = useTheme(); // Get the current theme
+
   return (
     <Box
       sx={{
-        width: '180px', // Fill width as specified
-        height: '32px', // Hug height as specified
-        padding: '4px', // Padding set to 4
-        gap: 'var(--8)', // Gap as per Figma
-        borderRadius: 'var(--8)', // Border radius as per Figma
-        opacity: 1, // Opacity set to 1 to make it visible
-        backgroundColor: '#ffff', // Example background color
-        display: 'flex', // Use flexbox for layout
-        alignItems: 'center', // Center items vertically
-        justifyContent: 'flex-start', // Align items to the start
+        width: '180px', 
+        height: '32px', 
+        padding: '4px', 
+        gap: 'var(--8)', 
+        borderRadius: 'var(--8)', 
+        opacity: 1, 
+        display: 'flex', 
+        alignItems: 'center',
+        justifyContent: 'flex-start', 
+        backgroundColor: theme.palette.background.default, // Set background based on theme
+        color: theme.palette.text.primary, // Set text color based on theme
       }}
     >
       <img
-        src="./Image/IconSet.png" // Replace with your image path
+        src="./Image/IconSet.png" 
         alt="Badge Icon"
         style={{
-          width: '24px', // Hug width as specified
-          height: '24px', // Hug height as specified
-          borderRadius: 'var(--Radius8)', // Border radius as per Figma
-          opacity: 1, // Set opacity to 1 to make it visible
-          marginRight: '8px', // Add space between the image and text
+          width: '24px', 
+          height: '24px', 
+          borderRadius: 'var(--Radius8)', 
+          opacity: 1, 
+          marginRight: '8px', 
         }}
       />
       ByeWind

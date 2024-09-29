@@ -16,7 +16,7 @@ const Sidebar = () => {
         opacity: 1, // Set to 1 for visibility
       }}
     >
-      <Badge /> {/* Assuming Badge is your only component */}
+      <Badge /> 
       <Frame1 />
       <Frame2 />
       <Frame3 />
