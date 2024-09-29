@@ -259,7 +259,7 @@ const Frame1and2 = () => {
                     >
                       +0.02%
                     </Typography>
-                    <TrendingUpIcon sx={{ width: '16px', height: '16px' }} />
+                    <TrendingUpIcon sx={{ width: '16px', height: '16px',color:theme.palette.mode === 'dark' ? 'white' : 'black' }} />
                   </Box>
                 </Box>
               </Button>
@@ -272,7 +272,7 @@ const Frame1and2 = () => {
                   padding: '24px',
                   gap: '8px',
                   borderRadius: '16px',
-                  bgcolor: theme.palette.mode === 'dark' ? theme.palette.background.paper : '#F7F9FB',
+                  bgcolor: '#E5ECF6',
                   boxShadow: theme.palette.mode === 'dark' ? 'none' : '0px 4px 8px rgba(0, 0, 0, 0.1)',
                   opacity: 1,
                  
@@ -288,7 +288,7 @@ const Frame1and2 = () => {
                     fontSize: '14px',
                     fontWeight: 600,
                     lineHeight: '20px',
-                    color: theme.palette.mode === 'dark' ? 'white' : 'black',
+                    color: theme.palette.mode === 'dark' ? 'black' : 'black',
                     textTransform: 'none', // Prevent text from being capitalized
                     left:'25px'
                   }}
@@ -302,7 +302,7 @@ const Frame1and2 = () => {
                       fontSize: '24px',
                       fontWeight: 600,
                       lineHeight: '36px',
-                      color: theme.palette.mode === 'dark' ? 'white' : 'black',
+                      color: theme.palette.mode === 'dark' ? 'black' : 'black',
                     }}
                   >
                     $286
@@ -314,12 +314,12 @@ const Frame1and2 = () => {
                         fontSize: '12px',
                         fontWeight: 400,
                         lineHeight: '18px',
-                        color: theme.palette.mode === 'dark' ? 'white' : 'black',
+                        color: theme.palette.mode === 'dark' ? 'black' : 'black',
                       }}
                     >
                       +0.03%
                     </Typography>
-                    <TrendingUpIcon sx={{ width: '16px', height: '16px' }} />
+                    <TrendingUpIcon sx={{ width: '16px', height: '16px', color:"black" }} />
                   </Box>
                 </Box>
               </Button>
