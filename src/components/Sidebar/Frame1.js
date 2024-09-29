@@ -71,7 +71,7 @@ const Frame1 = () => {
         }}
       >
         <Typography variant="body2" sx={{ display: 'flex', alignItems: 'center' }}>
-          <span style={{ marginRight: '8px', fontSize: '16px' }}>•</span> Second row text
+          <span style={{ marginRight: '8px', fontSize: '16px' }}>•</span> Overview
         </Typography>
       </Box>
 
@@ -86,7 +86,7 @@ const Frame1 = () => {
         }}
       >
         <Typography variant="body2" sx={{ display: 'flex', alignItems: 'center' }}>
-          <span style={{ marginRight: '8px', fontSize: '16px' }}>•</span> Third row text
+          <span style={{ marginRight: '8px', fontSize: '16px' }}>•</span> Projects
         </Typography>
       </Box>
     </Box>
